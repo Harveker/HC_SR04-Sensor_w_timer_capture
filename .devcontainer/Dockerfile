@@ -6,10 +6,10 @@ ENV REFRESHED_AT 2023-02-15
 
 # build commands to build and tag image (from root project directory):
 # !!! DONT FORGET TO CHANGE TAG (VERSION) !!!
-# docker login registry.gitlab.com -u dkrasutski
-# <type your gitlab password>
-# docker build -t registry.gitlab.com/dkrasutski/loko_air/loko:X.Y -f ./.devcontainer/Dockerfile .
-# docker push registry.gitlab.com/dkrasutski/loko_air/loko:X.Y
+# docker login registry.example.com -u <your-username>
+# <type your password>
+# docker build -t registry.example.com/<your-org>/<your-project>:X.Y -f ./.devcontainer/Dockerfile .
+# docker push registry.example.com/<your-org>/<your-project>:X.Y
 # Manually build the Docker image: docker build -f .devcontainer/Dockerfile .
 
 #Install CLang keys
