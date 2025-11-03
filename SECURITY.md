@@ -1,8 +1,8 @@
 # Security Policy
 
-## Protecting Personal Information
+## Protecting Personally Identifiable Information
 
-This repository has been sanitized to remove personal identifiable information (PII). When contributing to this project, please ensure:
+This repository has been sanitized to remove personally identifiable information (PII). When contributing to this project, please ensure:
 
 ### Configuration Files
 

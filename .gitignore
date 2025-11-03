@@ -33,6 +33,8 @@
 *.exe
 
 # IDE files
+# Note: .vscode/ is currently tracked with sanitized settings
+# This pattern prevents future uncommitted files from being tracked
 .vscode/
 .idea/
 *.launch
